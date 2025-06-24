@@ -5,7 +5,7 @@ import { FaDownload } from 'react-icons/fa';
 
 export default function ResumePage() {
   // Google Drive file ID from your link
-  const fileId = "1T7rBYZfsqiouliVYZ98SSmDekhSubYDz";
+  const fileId = "1npeIDaA-V23CblSlZ5hUQauL6WGPb9we";
   
   // Construct the direct download and embed URLs
   const downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
