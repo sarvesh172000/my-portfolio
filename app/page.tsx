@@ -11,7 +11,7 @@ export default function Home() {
   const firstName = "Sarvesh".split("");
   const lastName = "Waghmare".split("");
 
-  const roles = ["Data Engineer", "Data Analyst", "ML Engineer", "Software Developer"];
+  const roles = ["Data Engineer", "Software Developer",  "ML Engineer", "Data Analyst"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
   useEffect(() => {
